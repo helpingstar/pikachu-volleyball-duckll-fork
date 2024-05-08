@@ -173,7 +173,7 @@ export class PikachuVolleyball {
       ball.yVelocity,
       Number(ball.isPowerHit),
     ];
-    const result = p1Observation.concat(p2Observation, ballObservation);
+    const result = p1Observation.concat(p2Observation, ballObservation, this.scores);
 
     return result;
   }
